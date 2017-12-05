@@ -1,3 +1,13 @@
+$footer-background-color: #888888;
+
+.footer-main {
+  background: $footer-background-color;
+  padding: 2rem 2rem;
+  color: #e8e8e8;
+}
+
+
+//legacy
 $highlight: $primary-color;
 
 .responsive-blog-footer {
@@ -15,20 +25,6 @@ $highlight: $primary-color;
     color: $dark-gray;
   }
 
-  .mailing-list {
-    margin-bottom: 1.5rem;
-  }
-  .mailing-container {
-    margin-bottom: 2rem;
-  }
-
-  .about-section, .tag-section {
-    margin-bottom: 2rem;
-
-    a {
-      color: $highlight;
-    }
-  }
 
   .subscribe-button {
     background-color:$highlight;

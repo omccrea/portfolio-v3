@@ -52,7 +52,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'components/header';
 @import 'components/hero';
 @import 'components/project-overview';
-@import 'components/sticky';
+@import 'components/project-details';
 @import 'components/footer';
