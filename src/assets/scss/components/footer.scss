@@ -1,9 +1,14 @@
-$footer-background-color: #9BAD49;
+$footer-background-color: #2C363F;
+$link-light-color: #F2F5EA;
 
 .footer-main {
   background: $footer-background-color;
   padding: 2rem 2rem;
-  color: #D6DBD2;
+  color: #F2F5EA;
+
+  a {
+    color: $link-light-color;
+  }
 }
 
 
@@ -22,7 +27,7 @@ $highlight: $primary-color;
   }
 
   p {
-    color: $dark-gray;
+    color: #F2F5EA;
   }
 
 

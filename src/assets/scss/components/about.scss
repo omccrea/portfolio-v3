@@ -1,0 +1,9 @@
+.about-me-intro {
+  background: $global-background-one;
+
+  h2 {
+    color: darken($global-background-one, 50%);
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0rem;
+  }
+}
