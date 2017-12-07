@@ -1,5 +1,7 @@
 @charset 'utf-8';
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins");
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -54,6 +56,8 @@
 
 @import 'components/header';
 @import 'components/hero';
+@import 'components/about';
 @import 'components/project-overview';
+@import 'components/small-about';
 @import 'components/project-details';
 @import 'components/footer';

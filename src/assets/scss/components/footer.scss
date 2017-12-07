@@ -1,9 +1,9 @@
-$footer-background-color: #888888;
+$footer-background-color: #9BAD49;
 
 .footer-main {
   background: $footer-background-color;
   padding: 2rem 2rem;
-  color: #e8e8e8;
+  color: #D6DBD2;
 }
 
 
@@ -25,15 +25,6 @@ $highlight: $primary-color;
     color: $dark-gray;
   }
 
-
-  .subscribe-button {
-    background-color:$highlight;
-
-    &:hover {
-     background-color: darken($highlight, 5%);
-     transition: color 0.3s ease-in;
-    }
-  }
 
   .fa-chevron-circle-up {
     font-size: 3rem;

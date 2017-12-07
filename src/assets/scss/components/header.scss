@@ -1,15 +1,16 @@
 $highlight-color: #4ec6cd;
-$nav-padding: 1rem;
-$nav-text-color: $dark-gray;
-$nav-bg-color: lighten($nav-text-color, 30%);
+$nav-padding: 0.5rem;
+$nav-text-color: #9BAD49;
+$nav-text-second-color: #2C363F;
+$nav-bg-color: lighten($nav-text-color, 20%);
 
-.responsive-nav-social-mobile {
+.responsive-nav-mobile {
   background: $nav-bg-color;
   display: flex;
   align-items: center;
   width: 100%;
 
-  .responsive-nav-social-mobile-left {
+  .responsive-nav-mobile-left {
     flex: 1 0 0;
 
     li {
@@ -17,14 +18,14 @@ $nav-bg-color: lighten($nav-text-color, 30%);
 
       .fa {
         color: $nav-text-color;
-        margin-right: -0.7rem;
+        margin-right: 1.7rem;
       }
     }
   }
 
-  .responsive-nav-social-mobile-right {
+  .responsive-nav-mobile-right {
     .menu-icon {
-      margin-right: $nav-padding;
+      margin-right: 1.5rem;
 
       &::after {
         padding-right: 1.5rem;
@@ -35,7 +36,7 @@ $nav-bg-color: lighten($nav-text-color, 30%);
   }
 }
 
-.responsive-nav-social {
+.responsive-nav {
   padding: $nav-padding;
   background-color: $nav-bg-color;
 
@@ -46,7 +47,11 @@ $nav-bg-color: lighten($nav-text-color, 30%);
 
    a {
      color: $nav-text-color;
-     font-size: 0.8rem;
+     font-size: 1rem;
+
+    span {
+       color: $nav-text-second-color;
+     }
 
      &:hover {
        color: $highlight-color;
@@ -69,7 +74,7 @@ $nav-bg-color: lighten($nav-text-color, 30%);
        }
      }
 
-     .responsive-nav-social-left {
+     .responsive-nav-left {
        width: 100%;
 
        .menu.vertical a {
@@ -78,9 +83,9 @@ $nav-bg-color: lighten($nav-text-color, 30%);
      }
    }
 
-  .responsive-nav-social-right {
+  .responsive-nav-right {
     a {
-      padding-right: 0.1rem;
+      padding-right: 0.7rem;
     }
   }
 
