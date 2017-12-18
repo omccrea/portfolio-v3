@@ -1,0 +1,81 @@
+
+.navnav {
+  background: #999999;
+  padding: 2rem;
+  text-align: center;
+
+  .navigation-click {
+    background: #ffffff;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 10px -2px rgba(128,128,128,0.68);
+  }
+}
+
+  .section-title {
+    display: flex;
+    flex-direction:column;
+    padding: 1em;
+    h2 {
+      margin:0;
+    }
+  }
+
+  .border-mod {
+    margin: 0;
+    padding-left: 0;
+    width: 40%;
+    height: 0.09em;
+    background: #999999;
+  }
+
+  .minor-separator {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    height: 0.05rem;
+    background: #999999;
+  }
+
+
+.homepage-details {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1em;
+
+  .homepage-project-details {
+    flex-direction: column;
+    color: #555555;
+
+    .deets {
+      color: #333333;
+      text-align: right;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+  @include breakpoint(medium) {
+    .homepage-details {
+      display: flex;
+      flex-direction: row;
+      margin: 1em;
+      padding: 0.5em;
+
+      .homepage-project-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        p {
+          text-align: right;
+        }
+        h3 {
+          text-align: right;
+
+
+        }
+      }
+    }
+}

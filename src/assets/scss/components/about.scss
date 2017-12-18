@@ -7,3 +7,25 @@
     padding: 1rem 1rem 0rem;
   }
 }
+
+.projects-all {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+
+  .section-head {
+    padding-left: 3rem;
+  }
+
+  .text-section-main {
+    display: flex;
+    .text-section-one {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .text-section {
+      color: #FFFFFF;
+    }
+  }
+
+}

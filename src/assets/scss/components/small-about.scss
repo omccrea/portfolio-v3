@@ -2,10 +2,28 @@ $small-about-background: #3d4551;
 
 .small-about {
   background-color: $small-about-background;
-  padding: 1rem;
+  padding: 4rem 1rem;
 
+
+  .upline {
+    display: flex;
+    width: 0.1rem;
+    background: white;
+  }
 
   .small-about-text {
     color: #FCFCFC;
+    margin-left: 1rem;
+  }
+
+  .contact-info {
+    color: #FCFCFC;
+    text-align: right;
+  }
+
+  .contact-me {
+    color: #ffffff;
+    display:flex;
+    justify-content: flex-end;
   }
 }

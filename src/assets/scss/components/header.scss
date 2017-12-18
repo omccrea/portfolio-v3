@@ -1,8 +1,8 @@
 $highlight-color: #4ec6cd;
 $nav-padding: 0.5rem;
-$nav-text-color: #D4DDDC;
-$nav-text-second-color: #2C363F;
-$nav-bg-color: lighten($nav-text-color, 20%);
+$nav-text-color: #787d30;
+$nav-text-second-color: #D4DDDC;
+$nav-bg-color: darken($nav-text-color, 15%);
 
 .responsive-nav-mobile {
   background: $nav-bg-color;

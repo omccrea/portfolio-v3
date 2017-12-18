@@ -1,7 +1,7 @@
 $marketing-site-hero-height: 65vh;
 
 .marketing-site-hero {
-  background: url('/img/BlurrySmileFalls.jpg') top right no-repeat;
+  background: url('../img/BlurrySmileFalls.jpg') top right no-repeat;
   height: $marketing-site-hero-height;
   background-size: cover;
   display: flex;
@@ -22,12 +22,6 @@ $marketing-site-hero-height: 65vh;
     font-size: 48px;
   }
 
-  .button.round {
-    border-radius: 5000px;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-bottom: 0;
-  }
 
   @media screen and (min-width: 40em) {
     padding-left: 50%;
